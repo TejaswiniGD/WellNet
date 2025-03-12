@@ -1,0 +1,51 @@
+.container{
+  border: 1px solid black;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at 10% 20%, rgb(0, 107, 141) 0%, rgb(0, 69, 91) 90%);
+}
+.card{
+  text-align: center;
+  width: 300px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  padding-bottom: 20px;
+
+}
+input{
+  width: 80%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border-radius: 5px;
+  border: 0.5px solid gray;
+}
+.btnL{
+  width: 263px;
+  height: 40px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  color: #FFFFFF;
+  background-color: #537895;
+  cursor: pointer;
+}
+p{
+  font-size: 12px;
+  margin-top: 20px;
+}
+span{
+  color: #1CAC78;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn-outline-danger{
+  background-color: red;
+}
+.select-role{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

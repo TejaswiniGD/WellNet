@@ -1,0 +1,36 @@
+.test-container{
+  margin-top: 100px;
+  margin-left: 30px;
+}
+.test-container h3{
+  margin: 0;
+  font-weight: 500;
+}
+.test-card{
+  margin-top: 30px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  padding: 30px;
+  width: 90%;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+.test-card table{
+  width: 100%;
+  border-collapse: collapse;
+}
+.test-card table th{
+  text-align: start;
+  font-weight: 500;
+  padding: 10px;
+  background-color: gray;
+}
+.test-card table td{
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 300;
+  border-bottom: 0.5px solid rgb(195, 195, 195);
+}
+.test-card table td button{
+  padding: 10px;
+  cursor: pointer;
+}

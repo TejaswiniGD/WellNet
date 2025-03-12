@@ -1,0 +1,9 @@
+.dialog {
+  display: flex;
+  flex-direction: column;
+}
+
+.dialog input,
+.dialog select {
+  margin-bottom: 15px;
+}

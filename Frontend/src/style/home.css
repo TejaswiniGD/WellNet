@@ -1,0 +1,174 @@
+
+
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.homelogo{
+    height: 70px;
+    width: 70px;
+    margin-left: 80px;
+
+}
+
+.homelogo img{
+    width: 100%;
+}
+
+.nav ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+
+}
+
+.nav{
+   
+   width: 500px;
+
+   
+}
+
+.nav ul li,
+.nav ul a{
+    font-size: 23px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.btn1 , .btn2{
+   padding:10px 25px; 
+   background-color: #26a7de;
+   border: none;
+   font-size: 15px;
+   font-weight: bold;
+   color: white;
+   border-radius: 5px;
+}
+
+.login{
+    
+    width : 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #ffffff;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about {
+    padding: 50px;
+    background-color: #ffffff;
+    text-align:left;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+     
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.about h2 {
+    margin-bottom: 2px; 
+    font-size: 30px;
+}
+
+.about h3 {
+    margin-bottom: 2px; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 40px;
+}
+.about p {
+    margin-top: 2px; 
+    font-size:19.2px ;
+    line-height: 2;
+}
+
+.about-text {
+    font-size: 30px;
+    width: 50%;
+}
+
+
+
+.departments {
+    padding: 50px;
+    background-color: #ffffff;
+    text-align: center;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.department-cards {
+    display: inline-block;
+    text-align: left;
+}
+
+.homecard {
+    display: inline-block;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    vertical-align: top;
+}
+
+.homecard img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    padding: 15px;
+    text-align: center;
+    color: #666;
+    background-color: #f8f8f8;
+}

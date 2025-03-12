@@ -1,0 +1,66 @@
+.container-history {
+
+  padding: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #e2e2e2 0%, #ffffff 100%);
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  color: #333;
+  font-size: 2.5em;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.card-history {
+  border: none;
+  border-radius: 8px;
+  padding: 25px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  overflow: hidden;
+}
+
+.card-history:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.subtitle {
+  margin-top: 0;
+  color: #444;
+  font-size: 1.8em;
+  font-weight: 500;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.card-history p {
+  line-height: 1.6;
+  margin: 10px 0;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .container-history {
+    padding: 20px;
+  }
+  .title {
+    font-size: 2em;
+  }
+  .card-history {
+    padding: 15px;
+  }
+  .subtitle {
+    font-size: 1.5em;
+  }
+}

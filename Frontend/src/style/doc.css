@@ -1,0 +1,195 @@
+.doc-container{
+  height: 100%;
+  padding: 0;
+  margin: 0;
+
+}
+.doc-container h3 {
+  margin: 0;
+  font-size: 18px;
+}
+.greetings{
+  padding: 10px 0px 10px 30px;
+}
+.wish{
+  font-weight: 300;
+  font-size: 13px;
+  color: black;
+}
+
+.cards{
+  margin: 10px auto 10px 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.card-one{
+  display: flex;
+  flex-direction: row;
+  background-color: #766FF5;
+  color: white;
+  width: 24%;
+  border-radius: 5px;
+
+}
+.icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 115px;
+}
+.icon i{
+  font-size: 23px;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.info h2, p{
+  margin: 0;
+}
+.card-one .item{
+  background-color: #8a7bf6;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.card-two, .card-three, .card-four{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 24%;
+  border-radius: 5px;
+}
+
+.card-two{
+  background-color: #f73859;
+  color: white;
+}
+
+.card-two .item{
+  background-color: #fb5b75;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.card-three{
+  background-color: #02acef;
+  color: white;
+}
+
+.card-three .item{
+  
+  background-color: #15b6f6;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.card-four{
+  background-color: #f8b500;
+  color: white;
+}
+
+.card-four .item{
+  
+  background-color: #ffc525;
+  padding: 20px;
+  border-radius: 50%;
+}
+.appointments{
+  height: 260.5px;
+  width: 100%;
+}
+
+.appointment-container{
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #FFFFFF;
+  width: 35%;
+  box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.051);
+  border-radius: 5px;
+}
+
+.appointment-container h4, p{
+  margin: 0 !important;
+  padding: 0;
+}
+
+.appointment-container h4{
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.appointment-container p{
+  font-weight: 400;
+  font-size: 12px;
+  color: gray;
+}
+.status{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 38%;
+}
+
+.status .stat{
+  background-color: rgba(255, 71, 71, 0.135);
+  border: 0.5px solid red;
+  color: red;
+  padding: 5px 10px 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.status .accept{
+  color: #008000;
+  padding: 5px 10px 5px 10px;
+  border: 0.5px solid #008000;
+  background-color: #00800012;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.just-a-thing{
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.attended-patients{
+  margin-top: 60px;
+  margin-left: 30px;
+  width: 93%;
+}
+
+.attended-patients h3{
+  padding-bottom: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.attended-patients table{
+  width: 100%;
+  border-collapse: separate;
+  padding-left: 25px;
+}
+.attended-patients table th{
+  font-weight: 500;
+  text-align: start;
+  padding: 20px 0;
+  width: 150px;
+}
+.attended-patients table td{
+  font-weight: 300;
+  padding: 20px 0;
+  width: 150px;
+}
+.att-container{
+  border-radius: 5px;
+  background-color: white;
+  width: 100%;
+  padding: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,93 @@
+.patient-container {
+  background-color: #f4f4f4f4;
+  height: 95vh;
+}
+
+.headders {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.add-patients {
+  background-color: #766FF5;
+  border: none;
+  font-weight: bold;
+  color: #FFFFFF;
+  padding: 5px 10px 5px 10px;
+  height: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.show-patients {
+  background-color: #FFFFFF;
+  margin: 10px;
+  padding: 10px;
+}
+
+.show-patients table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 8px;
+}
+
+
+.show-patients table th {
+  font-weight: 400;
+  background-color: rgb(212, 212, 212);
+  padding: 20px;
+  text-align: start;
+}
+
+.show-patients table th:first-child {
+  border-radius: 5px 0px 0px 5px;
+}
+
+.show-patients table th:last-child {
+  border-radius: 0px 5px 5px 0px;
+}
+
+
+
+.show-patients table td {
+  font-weight: 300;
+  background-color: rgba(235, 235, 235, 0.515);
+  padding: 20px;
+  margin-bottom: 5px;
+}
+
+.show-patients table td:first-child {
+  border-radius: 5px 0px 0px 5px;
+}
+
+.show-patients table td:last-child {
+  border-radius: 0px 5px 5px 0px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+  list-style: none;
+}
+
+.pagination li {
+  margin: 0 0.3rem;
+}
+
+.pagination li a {
+  padding: 0.5rem 0.8rem;
+  border: 1px solid #766FF5;
+  color: #766FF5;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.pagination li.active a {
+  background-color: #766FF5;
+  color: white;
+}
+

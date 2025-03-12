@@ -1,0 +1,118 @@
+.bill-container{
+  display: flex;
+  justify-content: center;
+}
+
+.bill-board{
+  margin: 20px;
+  width: 70%;
+  height: 100vh;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.bill-to{
+  margin: 10px;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #F2F5F9;
+}
+.bill-heading{
+  width: 100%;
+  display: flex;
+}
+.bill-heading h2{
+  margin: 0;
+}
+.bill-cus-details{
+  margin-top: 50px;
+}
+.billing-to{
+  color: gray;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.in-no{
+  font-weight: 400;
+  color: gray;
+  font-size: 14px;
+}
+.invoice-no{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+}
+.invoice-no h2{
+  margin: 0;
+  margin-top: 5px;
+}
+
+.iss-date{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+}
+.iss-date p{
+  font-size: 13px;
+  font-weight: 400;
+}
+.gray{
+  color: gray;
+}
+.bill-pres-details{
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.bill-pres-details table{
+  width: 100%;
+}
+
+.bill-pres-details table th{
+  text-align: start;
+  padding: 10px;
+}
+.bill-pres-details table td{
+  padding: 10px;
+}
+.bill-price{
+  color: gray;
+  font-weight: 400;
+
+}
+.bill-aprice{
+  color: gray;
+}
+.bill-total{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin-top: 100px;
+}
+.col-1 h1{
+  margin: 0;
+  padding-right: 10px;
+}
+.col-1 p{
+  font-size: 14px;
+  font-weight: 300;
+  padding-left: 10px;
+}
+.col-1{
+  width: 40%;
+  padding: 10px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+  background-color: #F2F5F9;
+}

@@ -1,0 +1,45 @@
+.patient-container{
+  padding-left: 30px;
+  padding-top: 50px;
+  height: 100vh;
+}
+.patient-container h2, h3{
+  margin: 0 !important;
+  font-weight: 500;
+}
+
+.checkups{
+  margin-top: 40px;
+  width: 90%;
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10 0 rgba(0, 0, 0, 0.2);
+}
+
+.checkups table{
+  margin-top: 30px;
+  width: 100%;
+  border-collapse: collapse;
+}
+.checkups table th{
+  text-align: start;
+  font-weight: 500;
+  padding: 10px;
+}
+.checkups table td{
+  padding: 15px;
+}
+
+.checkups table th{
+  border-bottom: 5px solid rgb(117, 117, 117);
+}
+
+.checkups table td .accept{
+  color: #008000;
+  padding: 5px 10px 5px 10px;
+  border: 0.5px solid #008000;
+  background-color: #00800012;
+  border-radius: 5px;
+  cursor: pointer;
+}

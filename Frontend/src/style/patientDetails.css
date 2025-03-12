@@ -1,0 +1,206 @@
+
+h5, p{
+  margin: 0;
+}
+
+
+.pat-container{
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+.prescription{
+  width: 60%;
+}
+
+.patient-details{
+  width: 40%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 15px;
+}
+
+.pat-card{
+  height: 69%;
+  width: 70%;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.06);
+}
+
+.pat-card hr{
+  margin: 10px;
+  border: 0.5px solid rgb(206, 206, 206);
+}
+
+.infos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.profilee{
+  border: 1px solid black;
+  display: blocks;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.infos h4, p{
+  margin: 0 !important;
+  padding: 0;
+}
+
+.infos h4{
+  padding-top: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.infos p{
+  font-size: 12px;
+  color: gray;
+  padding-bottom: 15px;
+}
+
+.information{
+  padding: 20px;
+}
+
+.email{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.email h5{
+  font-weight: 500;
+  color: gray;
+  font-size: 12.5px;
+}
+
+.email p{
+  font-weight: 500;
+}
+
+.prescription h2{
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.prescription-area{
+  margin-left: 20px;
+}
+
+.prescription-area h3{
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.prescription-area textarea{
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  background-color: #FFFFFF;
+  border: 0.5px solid gray;
+  border-radius: 5px;
+  outline: none;
+}
+
+.quick-add-tests{
+  margin-left: 20px;
+  width: 100%;
+}
+
+.quick-add-tests h4,
+.custom-test h4,
+.added-tests h4{
+  font-weight: 500;
+  margin: 36px 0px 10px 0px;
+}
+
+.test-buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.test-buttons button{
+  padding: 10px 40px 10px 40px;
+  background-color: #00bbf0;
+  border: none;
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.custom-test{
+  margin-left: 20px;
+  width: 100%;
+}
+.custom-test input{
+  border-radius: 5px 0px 0px 5px;
+  border: 0.5px solid gray;
+  border-right: none;
+}
+.custom-test button{
+  height: 41px;
+  border: #00bbf0;
+  background-color: #00bbf0;
+  width: 100px;
+  border-radius: 0px 5px 5px 0px;
+  color: white;
+  cursor: pointer;
+}
+
+.added-tests{
+  margin-left: 20px;
+}
+
+.added-tests ul {
+  list-style: none;
+  padding: 0;
+  padding-bottom: 40px;
+}
+
+.added-tests ul li {
+  background-color: #e9ecef;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.submit-btn{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.submit{
+  padding: 10px 30px 10px 30px;
+  cursor: pointer;
+  background-color: #42b883;
+  border: none;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+@media (max-height: 800px) {
+  .pat-card {
+    height: auto;
+    padding: 10px; /* Reduce padding */
+  }
+
+  .submit-btn {
+    margin-top: 20px; /* Reduce margin above the button */
+  }
+}
